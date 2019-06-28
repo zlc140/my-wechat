@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/read/index",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/scan/index",
+    "pages/aboutImg/index"
+  ],
+  "tabBar": {
+    "color": "#676767",
+    "selectedColor": "#f23030",
+    "backgroundColor": "#f0f0f0",
+    "list": [ 
+      {
+        "pagePath": "pages/read/index",
+        "text": "阅读",
+        "iconPath": "image/navBar/read-icon.png",
+        "selectedIconPath": "image/navBar/read-sel-icon.png"
+      },
+      {
+        "pagePath": "pages/scan/index",
+        "text": "扫一扫",
+        "iconPath": "image/navBar/scan-icon.png",
+        "selectedIconPath": "image/navBar/scan-sel-icon.png"
+      },
+      {
+        "pagePath": "pages/aboutImg/index",
+        "text": "图片",
+        "iconPath": "image/navBar/img-icon.png",
+        "selectedIconPath": "image/navBar/img-sel-icon.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "image/navBar/home-icon.png",
+        "selectedIconPath": "image/navBar/home-sel-icon.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f0f0f0",
+    "navigationBarTitleText": "足迹",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "borderStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
