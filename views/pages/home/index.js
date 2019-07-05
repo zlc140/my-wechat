@@ -46,7 +46,7 @@ Page({
     const _ = db.command
     db.collection('product')
       .where({
-        price: _.gt(10)
+        // price: _.gt(10)
       })
       .limit(10)
       .get({

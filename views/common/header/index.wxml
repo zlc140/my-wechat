@@ -1,0 +1,4 @@
+<view class="header-box">
+    <text>{{title}}</text>
+    <text>{{decs}}</text>
+</view>

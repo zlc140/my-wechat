@@ -1,4 +1,4 @@
-// pages/read/index.js
+// pages/wxUI/index.js
 Page({
 
   /**

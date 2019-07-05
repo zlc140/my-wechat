@@ -1,4 +1,4 @@
-// pages/aboutImg/index.js
+// pages/cloud/index.js
 Page({
 
   /**

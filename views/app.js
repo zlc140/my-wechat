@@ -35,7 +35,18 @@ App({
     wx.cloud.init({
       env: 'zlc-7ismg'
     })
-   
+    
+    wx.cloud.callFunction({
+      // 需调用的云函数名
+      name: 'add',
+      // 传给云函数的参数
+      data: {
+        a: 12,
+        b: 19,
+      },
+      // 成功回调
+      complete: console.log
+    })
 
   },
   globalData: {
